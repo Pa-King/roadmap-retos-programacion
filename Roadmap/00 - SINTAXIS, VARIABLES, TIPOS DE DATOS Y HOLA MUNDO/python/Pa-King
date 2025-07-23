@@ -1,0 +1,52 @@
+### Sintaxis, Variables, Tipos de Datos y Hola Mundo ###
+
+### https://python.org/ ###
+
+# este es un comentario de una sola línea
+
+""" 
+este es
+un comentario
+de varias líneas
+
+"""
+
+'''
+este es
+otro comentario
+de varias líneas
+'''
+
+my_variable = 10
+
+MY_CONSTANT = 3.14  # Por convención para representar constantes en mayúsculas
+
+name = "Panchito"  # Variable de tipo cadena (str)
+age = 30           # Variable de tipo entero (int)
+height = 1.75      # Variable de tipo flotante (float)
+weigh = 70.5       # Variable de tipo flotante (float)
+is_student = False # Variable de tipo booleano (bool)
+is_teacher = True  # Variable de tipo booleano (bool)
+
+list = ["Jose", "Epifanio", "Pollo", "Lalo"] 
+tuple = ("Gaby", "Magali", "Gabriel")
+set = {"Camali", "Yayo"}
+dict = {"name": "Panchito", "surname": "Vanegas", "lastname": "Garcia"}
+
+print(type(name))        # <class 'str'>
+print(type(age))         # <class 'int'>
+print(type(height))      # <class 'float'>
+print(type(weigh))       # <class 'float'>
+print(type(is_student))  # <class 'bool'>
+print(type(list))        # <class 'list'>
+print(type(tuple))       # <class 'tuple'>
+print(type(set))         # <class 'set'>
+print(type(dict))        # <class 'dict'>
+
+print("Hola, Python!")   # Imprime un mensaje en la consola
+
+print("este es mi primer reto")
+
+print("saludos a todos los programadores de la comunidad") 
+
+print("Saludos Brais")
